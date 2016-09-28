@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,16 +17,10 @@
       <img src="img/udacity-logo.svg" alt="udacity logo">
     </div>
     <div class="title">
-      <h1 class="text-uppercase title-super">Jane Doette</h1>
+      <h1 class="text-uppercase">Jane Doette</h1>
       <h4 class="text-uppercase">Front-end Ninja</h4>
     </div>
   </header>
-
-    <div class="row">
-      <div class="col-md-12">
-        <hr>
-      </div>
-    </div>
 
     <div class="row">
       <div class="col-md-12">
@@ -35,7 +28,7 @@
           srcset = "img/head-flower-1600px.jpg 1600w, 
                    img/head-flower-800px.jpg 800w,
                    img/head-flower-400px.jpg 400w"
-          sizes = "(max-width: 1000px): 100vw"
+          sizes = "(max-width: 1000px) 100vw"
           alt = "head pic-wild flowers">
      </div>
     </div>
@@ -47,46 +40,52 @@
     </div>
 
     <div class="row text-center gallary">
-      <div class="col-md-6 pic">
+      <div class="col-md-3 pic">
         <img class="img-responsive" src = "img/flower1.jpg"
           srcset = "img/flower1-500px.jpg 500w, 
-                    img/flower1-250px.jpg 250w" 
+                    img/flower1-250px.jpg 250w"
+          sizes="(min-width: 800px) 50vw, 100vw" 
           alt = "Stone and butterfly.">
         <h3>Stone</h3>
-        <p><a href="http://www.pixelstalk.net/beautiful-1080p-img/"</a></p>
+        <p><a href="http://www.pixelstalk.net/beautiful-1080p-img/"></a></p>
       </div>
-      <div class="col-md-6 pic"> 
+      <div class="col-md-3 pic"> 
        <img class="img-responsive" src = "img/flower2.jpg"
          srcset = "img/flower2-500px.jpg 500w, 
                    img/flower2-250px.jpg 250w"
+         sizes="(min-width: 800px) 50vw, 100vw"
          alt = "Great autumn.">
         <h3>Autumn</h3>
-        <p><a href="http://www.pixelstalk.net/beautiful-1080p-img/"</a></p>
+        <p><a href="http://www.pixelstalk.net/beautiful-1080p-img/"></a></p>
       </div>
-      <div class="col-md-6 pic">
+      <div class="col-md-3 pic">
        <img class="img-responsive" src = "img/flower3.jpg"
          srcset = "img/flower3-500px.jpg 500w, 
                    img/flower3-250px.jpg 250w"
+         sizes="(min-width: 800px) 50vw, 100vw"
          alt = "Cute little Girl.">
         <h3>Little Girl</h3>
-        <p><a href="http://www.pixelstalk.net/beautiful-1080p-img/"</a></p>
+        <p><a href="http://www.pixelstalk.net/beautiful-1080p-img/"></a></p>
       </div>
-      <div class="col-md-6 pic">
+      <div class="col-md-3 pic">
        <img class="img-responsive" src = "img/flower4.jpg"
          srcset = "img/flower4-500px.jpg 500w, 
                  img/flower4-250px.jpg 250w"
+         sizes="(min-width: 800px) 50vw, 100vw"
          alt = "Green flowers.">
         <h3>Flower</h3>
-        <p><a href="http://www.pixelstalk.net/beautiful-1080p-img/"</a></p>
+        <p><a href="http://www.pixelstalk.net/beautiful-1080p-img/"></a></p>
       </div>
     </div> 
-</div>
-      <footer>
-        <ul>
-          <li><a href="#">Contact me</a></li>
-          <li><a href="#">Follow me on Twitter</a></li>
-        </ul>
+
+      <footer class="row">
+        <div class="col-md-2">
+          <a href="#">Contact me</a>
+        </div>
+        <div class="col-md-2">
+          <a href="#">Follow me on Twitter</a>
+        </div>
       </footer>
-  
+  </div>
  </body>
 </html>
